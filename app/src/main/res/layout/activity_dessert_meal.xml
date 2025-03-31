@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DessertMeal">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/Background5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/after_dinner_background"
+            tools:ignore="ContentDescription"
+            tools:layout_editor_absoluteX="-16dp"
+            tools:layout_editor_absoluteY="170dp" />
+
+        <ImageView
+            android:id="@+id/PannaCottaBerriesSweetenedCreamImage"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="120dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.049"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Background5"
+            app:srcCompat="@drawable/panna_cotta_berries_sweetened_cream"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/DesertMenu"
+            android:layout_width="0dp"
+            android:layout_height="67dp"
+            android:layout_marginTop="16dp"
+            android:background="@color/black"
+            android:fontFamily="@font/poppins_regular"
+            android:gravity="center"
+            android:padding="16dp"
+            android:text="Dessert Menu"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/PannaCottaBerriesSweetenedCreamText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="336dp"
+            android:background="@color/light_grey"
+            android:fontFamily="@font/comfortaa_variablefont_wght"
+            android:text="Panna Cotta Berries\nSweetened Cream"
+            android:textColor="#33691E"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/PannaCottaBerriesSweetenedCreamImage"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,VisualLintOverlap" />
+
+        <TextView
+            android:id="@+id/ChocolateCoveredStrawberriesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="656dp"
+            android:background="@color/light_grey"
+            android:fontFamily="@font/comfortaa_variablefont_wght"
+            android:text="ChocolateCovered\nStrawberries"
+            android:textColor="#33691E"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/PannaCottaBerriesSweetenedCreamImage"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,VisualLintOverlap" />
+
+        <TextView
+            android:id="@+id/BakedAppleSlicesText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="320dp"
+            android:background="@color/light_grey"
+            android:fontFamily="@font/comfortaa_variablefont_wght"
+            android:text="Baked Apple Slices"
+            android:textColor="#33691E"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/PannaCottaBerriesSweetenedCreamImage"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,VisualLintOverlap" />
+
+        <TextView
+            android:id="@+id/SoupBreadText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="640dp"
+            android:background="@color/light_grey"
+            android:fontFamily="@font/comfortaa_variablefont_wght"
+            android:text="Soup Bread"
+            android:textColor="#33691E"
+            android:textSize="25sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.925"
+            app:layout_constraintStart_toStartOf="@+id/PannaCottaBerriesSweetenedCreamImage"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="HardcodedText,VisualLintOverlap" />
+
+        <ImageView
+            android:id="@+id/ChocolateCoveredStrawberriesImage"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="440dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.035"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chocolate_covered_strawberries"
+            tools:ignore="ContentDescription,ImageContrastCheck,VisualLintBounds" />
+
+        <ImageView
+            android:id="@+id/BakedAppleSlicesImage"
+            android:layout_width="157dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="108dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.96"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/Background5"
+            app:srcCompat="@drawable/baked_apple_slices"
+            tools:ignore="ContentDescription,ImageContrastCheck" />
+
+        <Button
+            android:id="@+id/btnBack6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="28dp"
+            android:text="Back"
+            android:textSize="25sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.544"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="HardcodedText" />
+
+        <ImageView
+            android:id="@+id/SoupBreadImage"
+            android:layout_width="300dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="440dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/soup_bread" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

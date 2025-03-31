@@ -1,0 +1,209 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    tools:context=".MorningMeal">
+
+    <!-- Background Image -->
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/morning_foods_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="ContentDescription"
+        tools:layout_editor_absoluteX="12dp" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@color/black"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="Morning Menu"
+        android:textColor="@android:color/white"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <!-- 🥣 Row 1: Acai Bowl | Avocado Toast -->
+    <!-- 🥞 Row 2: Banana Oat Pancakes | Greek Yogurt -->
+    <ImageView
+        android:id="@+id/acaiBowlImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="112dp"
+        android:src="@drawable/acai_bowl_with_bananas___nuts"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/acaiBowlText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="4dp"
+        android:background="@color/light_grey"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Acai Bowl"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@+id/acaiBowlImage"
+        app:layout_constraintTop_toBottomOf="@+id/acaiBowlImage"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/avocadoToastImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="116dp"
+        android:src="@drawable/avacarodo_with_toast"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.992"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/avocadoToastText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:background="@color/light_grey"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Avocado Toast"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/avocadoToastImage"
+        app:layout_constraintTop_toBottomOf="@id/avocadoToastImage"
+        tools:ignore="HardcodedText" />
+
+    <ImageView
+        android:id="@+id/bananaOatsImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="448dp"
+        android:src="@drawable/banana_oat_pancakes_with_honey"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/bananaOatsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/light_grey"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Banana Oat\n Pancakes"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@id/bananaOatsImage"
+        app:layout_constraintTop_toBottomOf="@id/bananaOatsImage"
+        tools:ignore="HardcodedText" />
+
+
+
+    <ImageView
+        android:id="@+id/greekYogurtImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="4dp"
+        android:src="@drawable/greek_yogurt_with_granola___berries"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/greekYogurtText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="44dp"
+        android:background="@color/light_grey"
+        android:text="Greek Yogurt"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@id/greekYogurtImage"
+        app:layout_constraintTop_toBottomOf="@+id/greekYogurtImage"
+        tools:ignore="HardcodedText,VisualLintOverlap" />
+
+    <ImageView
+        android:id="@+id/OmeletwithMushroomsBellPeppersImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="636dp"
+        android:src="@drawable/omelet_with_mushrooms___bell_peppers"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck,VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/omeletText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/light_grey"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Omelet with\n Mushrooms"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="@id/OmeletwithMushroomsBellPeppersImage"
+        app:layout_constraintTop_toBottomOf="@id/OmeletwithMushroomsBellPeppersImage"
+        tools:ignore="HardcodedText,TextContrastCheck,VisualLintBounds" />
+
+    <ImageView
+        android:id="@+id/OvernightOatswithAlmondButterBlueberriesImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="116dp"
+        android:src="@drawable/overnight_oats_with_almond_butter___blueberries"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription,ImageContrastCheck" />
+
+    <TextView
+        android:id="@+id/OvernightOatsText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="2dp"
+        android:background="@color/light_grey"
+        android:fontFamily="@font/poppins_regular"
+        android:text="Overnight Oats"
+        android:textColor="@color/purple"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/OvernightOatswithAlmondButterBlueberriesImage"
+        app:layout_constraintTop_toBottomOf="@+id/OvernightOatswithAlmondButterBlueberriesImage"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="112dp"
+        android:layout_height="75dp"
+        android:layout_marginBottom="136dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
