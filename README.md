@@ -71,13 +71,15 @@ This is the morning menu where the user selects breakfast options.
 This is the brunch/mid-morning option.
 ![Image](https://github.com/user-attachments/assets/c9c6f328-7697-40fb-b71c-c9b1ca719744)
 
-This is the afternoon options
+This is the afternoon options.
+
 ![Image](https://github.com/user-attachments/assets/890288b3-7a0a-4939-828b-d66f39e990bb)
 
 This is the evening meal options.
 ![Image](https://github.com/user-attachments/assets/4cf31ada-d111-4617-8eb3-6c7be14a5595)
 
-This is the dessert menu
+This is the dessert menu.
+
 ![Image](https://github.com/user-attachments/assets/c333889b-fbb6-4612-9878-1e624b5c7431)
 
 ---
