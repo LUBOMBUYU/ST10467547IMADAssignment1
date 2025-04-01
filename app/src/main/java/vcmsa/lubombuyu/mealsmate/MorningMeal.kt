@@ -17,10 +17,7 @@ class MorningMeal : AppCompatActivity() {
 
 
         setContentView(R.layout.activity_morning_meal)
-
-
-
-
+        // Code starts here
         // Find meal images
         val acaiBowlImage = findViewById<ImageView>(R.id.acaiBowlImage)
         val avocadoToastImage = findViewById<ImageView>(R.id.avocadoToastImage)

@@ -10,8 +10,7 @@ import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.content.ContextCompat
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
+
 
 @Suppress("LocalVariableName", "DEPRECATION")
 class MiddleMorningMeal : AppCompatActivity() {
@@ -21,22 +20,18 @@ class MiddleMorningMeal : AppCompatActivity() {
         enableEdgeToEdge()
         setContentView(R.layout.activity_middle_morning_meal)
 
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
-        }
+
 
         // Code starts here
         // This code is used to get the images as values so that when the user clicks on them,
-        val btnBack3 = findViewById<Button>(R.id.btnBack3)
+        val btnBack2 = findViewById<Button>(R.id.btnBack2)
         val berrySmoothieImage = findViewById<ImageView>(R.id.BerrysmoothiesImage)
         val hummusImage = findViewById<ImageView>(R.id.HummusandVeggiesticksImage)
         val oatmealCookiesImage = findViewById<ImageView>(R.id.OatMealCookiesImage)
         val TrailMixImage = findViewById<ImageView>(R.id.TrailMixImage)
 
         // This code sends the user back to the previous activity
-        btnBack3.setOnClickListener {
+        btnBack2.setOnClickListener {
             finish()
         }
 

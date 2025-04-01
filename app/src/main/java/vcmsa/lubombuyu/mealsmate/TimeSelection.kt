@@ -42,7 +42,8 @@ class TimeSelection : AppCompatActivity() {
                     startActivity(Intent(this, MiddleMorningMeal::class.java))
                 }
                 // if the time entered is lunch then it will navigate to the lunch activity
-                timeEntered.equals("lunch", ignoreCase = true) -> {
+                timeEntered.equals("lunch", ignoreCase = true) ||
+                        timeEntered.equals("afternoon", ignoreCase = true)  -> {
                     startActivity(Intent(this, AfternoonMeal::class.java))
                 }
                 // if the time entered is dinner then it will navigate to the dinner activity
@@ -54,6 +55,10 @@ class TimeSelection : AppCompatActivity() {
                 // if the time entered is dessert then it will navigate to the dessert activity
                 timeEntered.equals("dessert", ignoreCase = true) -> {
                     startActivity(Intent(this, DessertMeal::class.java))
+                }
+                // if the time entered is mid-night then a message will show that there are no snacks at mid-night
+                timeEntered.equals("mid-night snack", ignoreCase = true) || timeEntered.equals("mid-night", ignoreCase = true) -> {
+                    Toast.makeText(this, "No snacks at mid-night", Toast.LENGTH_LONG).show()
                 }
                 else -> {
                     // If the entered time is not recognized, display a toast message
