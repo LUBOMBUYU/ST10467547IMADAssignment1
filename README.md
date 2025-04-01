@@ -74,6 +74,7 @@ Users tap to enter the app.
 
 ### **Time Selection Menu**
 Users select the time of day.
+
 ![Time Selection](https://github.com/user-attachments/assets/9e53ed98-2dd5-4299-8bc7-8a4806d8d163)
 
 ### **Breakfast Options**
