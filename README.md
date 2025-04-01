@@ -59,8 +59,8 @@ Ensured smooth navigation by preventing UI lag with Kotlin coroutines where need
 ## 🖼️ App Screenshots
 Include some images of your app in action:
 
-![Screenshot 1](image_link_here)  
-![Screenshot 2](image_link_here)
+![Image](https://github.com/user-attachments/assets/8d9061bd-8299-41e1-b74c-d698fd77dcb8)
+![Image](https://github.com/user-attachments/assets/9e53ed98-2dd5-4299-8bc7-8a4806d8d163)
 
 ---
 
