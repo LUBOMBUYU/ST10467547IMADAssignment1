@@ -13,7 +13,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/top_view_different_types_pasta_as_ziti_rotini_tagliatelle_others_with_garlic_melted_butter_salt_tomato_pepper_ketchup_around_note_pad_wooden_surface_with_copy_space_resized"
+        android:src="@drawable/top_view_different_types_pasta_as_ziti_rotini_tagliatelle_others_with_garlic_melted_butter_salt_tomato_pepper_ketchup_around_note_pad_wooden_surface_with_copy_space"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
