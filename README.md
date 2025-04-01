@@ -61,12 +61,24 @@ Include some images of your app in action:
 This is the start menu where the user is asked to tap to enter the application
 ![Image](https://github.com/user-attachments/assets/8d9061bd-8299-41e1-b74c-d698fd77dcb8)
 
-This is the time selection menu where the user selects the time of day that they want to use.It also includes a reset button where they can reset there choices.
+This is the time selection menu where the user selects the time of day that they want to use.
 ![Image](https://github.com/user-attachments/assets/9e53ed98-2dd5-4299-8bc7-8a4806d8d163)
 
 This is the morning menu where the user selects breakfast options.
 
 ![Image](https://github.com/user-attachments/assets/e0c996f1-eed6-4f5e-884c-15d16c1f4ed9)
+
+This is the brunch/mid-morning option.
+![Image](https://github.com/user-attachments/assets/c9c6f328-7697-40fb-b71c-c9b1ca719744)
+
+This is the afternoon options
+![Image](https://github.com/user-attachments/assets/890288b3-7a0a-4939-828b-d66f39e990bb)
+
+This is the evening meal options.
+![Image](https://github.com/user-attachments/assets/4cf31ada-d111-4617-8eb3-6c7be14a5595)
+
+This is the dessert menu
+![Image](https://github.com/user-attachments/assets/c333889b-fbb6-4612-9878-1e624b5c7431)
 
 ---
 
