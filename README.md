@@ -1,90 +1,95 @@
 # 📱 Meal Mates App
 
 ## 🔗 Links
-- **GitHub Repository: https://github.com/LUBOMBUYU/ST10467547IMADAssignment1
+- **GitHub Repository:** [Meal Mates Repo](https://github.com/LUBOMBUYU/ST10467547IMADAssignment1)
 - **YouTube Video:** [Insert Link Here](https://youtube.com/your-video-link)
 
 ---
 
 ## 📌 Purpose of the App
-Provide a brief description of your app:
-The user will open the app and it will start off with a welcome page where hey click a button to that is labeled "tap to enter".
-The user then is lead to a page where they are asked to enter the time of day that they want. They are then laid to the selected
-time of dat. Where they see meal suggestions where when they click an image it provides a brief discrptions of the meal selected.
+The **Meal Mates App** is designed to help users select meals based on the time of day.
 
+- **How it works:**
+  - The app starts with a welcome page where users tap "Tap to Enter."
+  - Users then select the desired time of day.
+  - The app displays meal suggestions for the selected time.
+  - Users can tap meal images to view descriptions.
 
-- What problem does it solve?
-The program is created to help our friend Hera and anyone in need of food suggestions.
-It also provides descriptions of the meals.
-  
-- Who is the target audience?
-The audience is are people who are looking for healthy food choices.
-People who are undecided on food and just want multiple suggestions.
+- **What problem does it solve?**
+  - It helps users decide what to eat by offering meal suggestions and descriptions.
+  - Originally designed for our friend Hera, it benefits anyone needing food inspiration.
 
-  
-- What are its main features?
-The main features of the app are the images used and the use of buttons to make the users life easier.
+- **Who is the target audience?**
+  - People looking for healthy food choices.
+  - Individuals who struggle to decide on meals and want multiple suggestions.
+
+- **Main features:**
+  - User-friendly interface with images and buttons for easy navigation.
+  - Meal suggestions based on time selection.
+  - Tap-to-view meal descriptions.
+
 ---
 
 ## 🎨 Design Considerations
-- User Interface (UI):
-The app uses bright and vibrant colours. It also uses a lot of background images that give a plesant display
+### **User Interface (UI):**
+- Uses bright and vibrant colors.
+- Background images enhance the visual appeal.
 
-- User Experience (UX):
-The app only requires users to enter the time.
-A straightforward flow ensures users never feel lost.
-Users can tap meal images to get descriptions, making the app engaging.
-If users enter an invalid time, the app provides a friendly prompt to re-enter a correct value.
+### **User Experience (UX):**
+- Requires only the time of day as input.
+- A simple and intuitive design to prevent confusion.
+- Meal descriptions make it interactive and informative.
+- Friendly prompts guide users if invalid input is entered.
 
-- Performance Optimization:
-Used ConstraintLayout for a flexible yet optimized interface.
-Compressed images ensure fast loading without sacrificing quality.
-The app avoids unnecessary computations by using simple conditional (while) statements.
-Ensured smooth navigation by preventing UI lag with Kotlin coroutines where needed.
+### **Performance Optimization:**
+- **ConstraintLayout** ensures a flexible and optimized UI.
+- Compressed images for fast loading without quality loss.
+- Simple conditionals for efficiency.
+- Kotlin coroutines prevent UI lag.
 
 ---
 
 ## 🔄 Utilization of GitHub & GitHub Actions
-- **GitHub:** Used for version control, collaboration, and tracking changes.
-- **GitHub Actions:** Used for automated testing, build verification, or deployment workflows.
+### **GitHub:**
+- Used for version control, collaboration, and tracking changes.
+
+### **GitHub Actions:**
+- Automates testing, build verification, and deployment workflows.
 
 ### **Steps Followed:**
-1. **Created a GitHub repository** for project storage.
-2. **Committed and pushed** changes regularly using Git.
-3. **Used branches** to work on different features separately.
+1. **Created a GitHub repository** to store and manage the project.
+2. **Committed and pushed changes** regularly to track progress.
+3. **Used branches** for developing different features independently.
 4. **Implemented GitHub Actions** for CI/CD automation.
 
+### **GitHub Actions Running:**
+![GitHub Actions](https://github.com/user-attachments/assets/aaa88d9c-421d-469f-b25c-0ef8a287b960)
 
-Image of the github actions running
-
-![Image](https://github.com/user-attachments/assets/aaa88d9c-421d-469f-b25c-0ef8a287b960)
 ---
 
 ## 🖼️ App Screenshots
-Include some images of your app in action:
-This is the start menu where the user is asked to tap to enter the application
-![Image](https://github.com/user-attachments/assets/8d9061bd-8299-41e1-b74c-d698fd77dcb8)
+### **Welcome Screen**
+Users tap to enter the app.
+![Welcome Screen](https://github.com/user-attachments/assets/8d9061bd-8299-41e1-b74c-d698fd77dcb8)
 
-This is the time selection menu where the user selects the time of day that they want to use.
-![Image](https://github.com/user-attachments/assets/9e53ed98-2dd5-4299-8bc7-8a4806d8d163)
+### **Time Selection Menu**
+Users select the time of day.
+![Time Selection](https://github.com/user-attachments/assets/9e53ed98-2dd5-4299-8bc7-8a4806d8d163)
 
-This is the morning menu where the user selects breakfast options.
+### **Breakfast Options**
+![Breakfast Menu](https://github.com/user-attachments/assets/e0c996f1-eed6-4f5e-884c-15d16c1f4ed9)
 
-![Image](https://github.com/user-attachments/assets/e0c996f1-eed6-4f5e-884c-15d16c1f4ed9)
+### **Brunch/Mid-Morning Menu**
+![Brunch Menu](https://github.com/user-attachments/assets/c9c6f328-7697-40fb-b71c-c9b1ca719744)
 
-This is the brunch/mid-morning option.
-![Image](https://github.com/user-attachments/assets/c9c6f328-7697-40fb-b71c-c9b1ca719744)
+### **Afternoon Meal Options**
+![Afternoon Menu](https://github.com/user-attachments/assets/890288b3-7a0a-4939-828b-d66f39e990bb)
 
-This is the afternoon options.
+### **Evening Meal Options**
+![Evening Menu](https://github.com/user-attachments/assets/4cf31ada-d111-4617-8eb3-6c7be14a5595)
 
-![Image](https://github.com/user-attachments/assets/890288b3-7a0a-4939-828b-d66f39e990bb)
-
-This is the evening meal options.
-![Image](https://github.com/user-attachments/assets/4cf31ada-d111-4617-8eb3-6c7be14a5595)
-
-This is the dessert menu.
-
-![Image](https://github.com/user-attachments/assets/c333889b-fbb6-4612-9878-1e624b5c7431)
+### **Dessert Menu**
+![Dessert Menu](https://github.com/user-attachments/assets/c333889b-fbb6-4612-9878-1e624b5c7431)
 
 ---
 
@@ -94,6 +99,6 @@ This document is also submitted on **Arc** as per the requirements.
 ---
 
 ### **📧 Contact**
-Created by Lubo Mbuyu 
+**Created by:** Lubo Mbuyu  
+📧 **Email:** [ST10467547@vcconnects.edu.za](mailto:ST10467547@vcconnects.edu.za)
 
-Email: ST10467547@vcconnects.edu.za
