@@ -54,6 +54,10 @@ Ensured smooth navigation by preventing UI lag with Kotlin coroutines where need
 3. **Used branches** to work on different features separately.
 4. **Implemented GitHub Actions** for CI/CD automation.
 
+
+Image of the github actions running
+
+![Image](https://github.com/user-attachments/assets/aaa88d9c-421d-469f-b25c-0ef8a287b960)
 ---
 
 ## 🖼️ App Screenshots
