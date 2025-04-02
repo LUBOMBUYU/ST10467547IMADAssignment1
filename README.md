@@ -1,6 +1,7 @@
 📱 Meal Mates App
 🔗 Links
 GitHub Repository: Meal Mates Repo
+YouTube Video: Insert Link Here)
 YouTube Video: (https://youtu.be/uJkhQl14MIk))
 📌 Purpose of the App
 The Meal Mates App is designed to help users select meals based on the time of day.
@@ -24,6 +25,7 @@ Main features:
 User-friendly interface with images and buttons for easy navigation.
 Meal suggestions based on time selection.
 Tap-to-view meal descriptions.
+
 🎨 Design Considerations
 User Interface (UI):
 Uses bright and vibrant colors.
@@ -38,45 +40,56 @@ ConstraintLayout ensures a flexible and optimized UI.
 Compressed images for fast loading without quality loss.
 Simple conditionals for efficiency.
 Kotlin coroutines prevent UI lag.
+
 🔄 Utilization of GitHub & GitHub Actions
 GitHub:
 Used for version control, collaboration, and tracking changes.
 GitHub Actions:
 Automates testing, build verification, and deployment workflows.
+
 Steps Followed:
 Created a GitHub repository to store and manage the project.
 Committed and pushed changes regularly to track progress.
 Used branches for developing different features independently.
 Implemented GitHub Actions for CI/CD automation.
+
 GitHub Actions Running:
-GitHub Actions
+
+[+]![Image](https://github.com/user-attachments/assets/aaa88d9c-421d-469f-b25c-0ef8a287b960)
 
 🖼️ App Screenshots
 Welcome Screen
-[Users tap to enter the app. Welcome Screen](https://private-user-images.githubusercontent.com/145216017/428966435-8d9061bd-8299-41e1-b74c-d698fd77dcb8.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NDM2MDMxOTksIm5iZiI6MTc0MzYwMjg5OSwicGF0aCI6Ii8xNDUyMTYwMTcvNDI4OTY2NDM1LThkOTA2MWJkLTgyOTktNDFlMS1iNzRjLWQ2OThmZDc3ZGNiOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUwNDAyJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MDQwMlQxNDA4MTlaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT05YzNmMzAwZTg5MDE0MWVmNTZiYTY0OGU1ODA3NDU5YTZlMTNlMzViZWEwNGQzOThkODllYmEzNTNkNzUyMTg4JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.-FhnnYTZ9VkqeNR_WnGbc4s5-oZda0LqQCG66u_5b90)
+Users tap to enter the app. Welcome Screen
+
+![Image](https://github.com/user-attachments/assets/8d9061bd-8299-41e1-b74c-d698fd77dcb8)
 
 Time Selection Menu
 Users select the time of day.
 
-Time Selection
+![Image](https://github.com/user-attachments/assets/9e53ed98-2dd5-4299-8bc7-8a4806d8d163)
 
 Breakfast Options
-Breakfast Menu
+
+![Image](https://github.com/user-attachments/assets/e0c996f1-eed6-4f5e-884c-15d16c1f4ed9)
 
 Brunch/Mid-Morning Menu
-Brunch Menu
+
+![Image](https://github.com/user-attachments/assets/c9c6f328-7697-40fb-b71c-c9b1ca719744)
 
 Afternoon Meal Options
-Afternoon Menu
+
+![Image](https://github.com/user-attachments/assets/890288b3-7a0a-4939-828b-d66f39e990bb)
 
 Evening Meal Options
-Evening Menu
+
+![Image](https://github.com/user-attachments/assets/4cf31ada-d111-4617-8eb3-6c7be14a5595)
 
 Dessert Menu
-Dessert Menu
+
+![Image](https://github.com/user-attachments/assets/c333889b-fbb6-4612-9878-1e624b5c7431)
 
 📂 Submission
-This document is also submitted on Arc as per the requirements.
+This document has also been submitted to Arc as per the requirements.
 
 📧 Contact
 Created by: Lubo Mbuyu
