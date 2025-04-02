@@ -1,17 +1,25 @@
 📱 Meal Mates App
+
 🔗 Links
 GitHub Repository: Meal Mates Repo
-YouTube Video: Insert Link Here)
+
 YouTube Video: (https://youtu.be/uJkhQl14MIk))
+
+
 📌 Purpose of the App
+
 The Meal Mates App is designed to help users select meals based on the time of day.
 
 How it works:
 
 The app starts with a welcome page where users tap "Tap to Enter."
+
 Users then select the desired time of day.
+
 The app displays meal suggestions for the selected time.
+
 Users can tap meal images to view descriptions.
+
 What problem does it solve?
 
 It helps users decide what to eat by offering meal suggestions and descriptions.
@@ -27,15 +35,21 @@ Meal suggestions based on time selection.
 Tap-to-view meal descriptions.
 
 🎨 Design Considerations
+
 User Interface (UI):
+
 Uses bright and vibrant colors.
 Background images enhance the visual appeal.
+
 User Experience (UX):
+
 Requires only the time of day as input.
 A simple and intuitive design to prevent confusion.
 Meal descriptions make it interactive and informative.
 Friendly prompts guide users if invalid input is entered.
+
 Performance Optimization:
+
 ConstraintLayout ensures a flexible and optimized UI.
 Compressed images for fast loading without quality loss.
 Simple conditionals for efficiency.
@@ -48,6 +62,7 @@ GitHub Actions:
 Automates testing, build verification, and deployment workflows.
 
 Steps Followed:
+
 Created a GitHub repository to store and manage the project.
 Committed and pushed changes regularly to track progress.
 Used branches for developing different features independently.
