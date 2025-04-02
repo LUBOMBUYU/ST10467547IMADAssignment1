@@ -2,7 +2,7 @@
 
 ## 🔗 Links
 - **GitHub Repository:** [Meal Mates Repo](https://github.com/LUBOMBUYU/ST10467547IMADAssignment1)
-- **YouTube Video:** [Insert Link Here](https://youtu.be/uJkhQl14MIk))
+- **YouTube Video:** (https://youtu.be/uJkhQl14MIk))
 
 ---
 
